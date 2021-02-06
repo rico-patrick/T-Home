@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1053400070048",
+    "firebase_url": "https://thome-d4776-default-rtdb.firebaseio.com",
+    "project_id": "thome-d4776",
+    "storage_bucket": "thome-d4776.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053400070048:android:e4c8c4d1cd74d1762c56c5",
+        "android_client_info": {
+          "package_name": "com.rico.thome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053400070048-qs0krtldk9r2qh8d84lob57cfrqnta40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7b4Gq1qnqiRukagVEMu8bWjPfif3xJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053400070048-qs0krtldk9r2qh8d84lob57cfrqnta40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
