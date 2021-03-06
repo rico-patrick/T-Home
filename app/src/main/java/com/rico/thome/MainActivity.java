@@ -3,6 +3,7 @@ package com.rico.thome;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.Toast;
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn4 = findViewById(R.id.rely4);
 
 
-        // Write a message to the database
+        //database
         database = FirebaseDatabase.getInstance();
         database.setPersistenceEnabled(true);
 
