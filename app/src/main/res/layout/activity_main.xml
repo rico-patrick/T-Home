@@ -8,19 +8,20 @@
     android:id="@id/layout"
     android:theme="@style/AppTheme">
 
-    <TextView
-        android:id="@+id/head"
+
+    <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/logo"
         android:gravity="center"
-        android:text="@string/header"
-        android:textColor="@color/text"
-        android:textSize="@dimen/head"
-        />
+        android:src="@drawable/logo" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
 
         <ToggleButton
             android:id="@+id/rely1"

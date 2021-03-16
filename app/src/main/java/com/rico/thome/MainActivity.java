@@ -3,7 +3,6 @@ package com.rico.thome;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.Toast;
@@ -34,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         database.setPersistenceEnabled(true);
 
+
+        //get data from Firebase
         myRef1 = database.getReference("LIGHT1_STATUS");
         myRef2 = database.getReference("LIGHT2_STATUS");
         myRef3 = database.getReference("LIGHT3_STATUS");
@@ -113,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(MainActivity.this, "Error in Retrieving", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Error in Retrieving Data", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -130,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(MainActivity.this, "Error in Retrieving", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Error in Retrieving Data", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -147,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(MainActivity.this, "Error in Retrieving", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Error in Retrieving Data", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -165,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(MainActivity.this, "Error in Retrieving", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Error in Retrieving Data", Toast.LENGTH_SHORT).show();
             }
         });
     }

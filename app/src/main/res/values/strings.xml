@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">T Home</string>
     <string name="powered">Powered By tAk</string>
-    <string name="header">Click On Any Button"</string>
     <string name="lte1on">Light 1 ON</string>
     <string name="lte2on">Light 2 ON</string>
     <string name="lte3on">Light 3 ON</string>

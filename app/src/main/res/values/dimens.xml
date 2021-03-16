@@ -6,7 +6,7 @@
     <dimen name="height">90dp</dimen>
     <dimen name="width">150dp</dimen>
     <dimen name="txt">25sp</dimen>
-    <dimen name="head">40sp</dimen>
+    <dimen name="head">10sp</dimen>
     <dimen name="foot">15sp</dimen>
     <dimen name="mvert2">270dp</dimen>
     <dimen name="mvert1">150dp</dimen>
